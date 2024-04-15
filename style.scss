@@ -8,13 +8,13 @@ body {
 }
 
 // Thiết lập kích thước, vị trí và màu sắc của khung container chứa các thành phần của game
-.container {
-  width: 1210px;
-  height: 510px;
-  margin: 30px auto;
-  display: flex;
-  justify-content: space-between;
-  background-color: #ffffff;
+.my-custom-container {
+  width: 1210px !important;
+  height: 510px !important;
+  margin: 30px auto !important;
+  display: flex !important;
+  justify-content: space-between !important;
+  background-color: #ffffff !important;
 }
 
 // Thiết lập kích thước, vị trí và màu sắc của phần bên trái của game
@@ -110,6 +110,11 @@ body {
 
     h1 {
       font-size: 60px;
+      display: flex;
+      justify-content: center;
+    }
+
+    .btn {
       display: flex;
       justify-content: center;
     }
