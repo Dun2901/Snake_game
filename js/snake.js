@@ -497,6 +497,9 @@ class Wall {
         this.y = y;
     }
 
+
+
+
     drawWall2() {
 
         for (let x = 0; x < WIDTH_GAME; x += BLOCK_SIZE) {
